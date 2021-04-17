@@ -1,0 +1,460 @@
+ganesh@ganesh-Ubuntu:~/Documents/AI/assignments/06/assignment-06-Ganesamanian/src$  python3 adversarial_search.py --option 2
+Enter the Height of the board:
+Enter the Width of the board:
+
+Min - Max algorithm with Alpha-Beta pruning
+
+Enter the depth to search(MORE THAN 5 INCREASES, THE TIME):5
+
+AI is thinking ...
+[150, 150, 150, 150, 150, 150, 150]
+move made 0, since max score is 150
+Time taken by AI is 0.16670217499995488
+
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   |   |   |   |   |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 1----------
+Enter the column to make move:0
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X |   |   |   |   |   |   |
+| O |   |   |   |   |   |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[100, 250, 150, 150, 150, 150, 150]
+move made 1, since max score is 250
+Time taken by AI is 0.16670217499995488
+
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X |   |   |   |   |   |   |
+| O | O |   |   |   |   |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 2----------
+Enter the column to make move:1
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X | X |   |   |   |   |   |
+| O | O |   |   |   |   |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[150, 150, 600, 50, 50, 600, 600]
+move made 2, since max score is 600
+Time taken by AI is 0.22465676499996334
+
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X | X |   |   |   |   |   |
+| O | O | O |   |   |   |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 3----------
+Enter the column to make move:3
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X | X |   |   |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[-5000, -4450, 800, -3950, 750, 700, 700]
+move made 2, since max score is 800
+Time taken by AI is 0.144624799999292
+
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X | X | O |   |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 4----------
+Enter the column to make move:2
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   | X |   |   |   |   |
+| X | X | O |   |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[750, 750, 750, 1300, 1150, 1300, 1300]
+move made 3, since max score is 1300
+Time taken by AI is 0.2057619520019216
+
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   | X |   |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 5----------
+Enter the column to make move:0
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X |   | X |   |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[-3800, 250, 50, -3950, -3150, 150, 100]
+move made 1, since max score is 250
+Time taken by AI is 0.16628082000170252
+
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X | O | X |   |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 6----------
+Enter the column to make move:0
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X |   |   |   |   |   |   |
+| X | O | X |   |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[700, -499750, -500350, -499900, -500350, -500400, -500400]
+move made 0, since max score is 700
+Time taken by AI is 0.0791797019992373
+
+|   |   |   |   |   |   |   |
+| O |   |   |   |   |   |   |
+| X |   |   |   |   |   |   |
+| X | O | X |   |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 7----------
+Enter the column to make move:3
+|   |   |   |   |   |   |   |
+| O |   |   |   |   |   |   |
+| X |   |   |   |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[400, 800, 800, 800, 800, 750, 750]
+move made 1, since max score is 800
+Time taken by AI is 0.059929719998763176
+
+|   |   |   |   |   |   |   |
+| O |   |   |   |   |   |   |
+| X | O |   |   |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 8----------
+Enter the column to make move:3
+|   |   |   |   |   |   |   |
+| O |   |   |   |   |   |   |
+| X | O |   | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[-200, 400, 400, 850, 300, 850, 850]
+move made 3, since max score is 850
+Time taken by AI is 0.11267698299707263
+
+|   |   |   |   |   |   |   |
+| O |   |   | O |   |   |   |
+| X | O |   | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 9----------
+Enter the column to make move:1
+|   |   |   |   |   |   |   |
+| O | X |   | O |   |   |   |
+| X | O |   | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[450, 350, 1300, 900, 350, 950, 950]
+move made 2, since max score is 1300
+Time taken by AI is 0.14823662900016643
+
+|   |   |   |   |   |   |   |
+| O | X |   | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X |   |   |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 10----------
+Enter the column to make move:4
+|   |   |   |   |   |   |   |
+| O | X |   | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X | X |   |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[-4350, -4350, -4100, -4100, -3150, 1450, 1400]
+move made 5, since max score is 1450
+Time taken by AI is 0.08494845399764017
+
+|   |   |   |   |   |   |   |
+| O | X |   | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X | X | O |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 11----------
+Enter the column to make move:2
+|   |   |   |   |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X | X | O |   |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[1250, 1350, 1350, 1350, -44100, 1350, 1350]
+move made 1, since max score is 1350
+Time taken by AI is 0.31200938999973005
+
+|   | O |   |   |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X | X | O |   |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 12----------
+Enter the column to make move:6
+|   | O |   |   |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[1800, 1800, 1750, -43050, 1750, 1400]
+move made 0, since max score is 1800
+Time taken by AI is 0.17513108999992255
+
+| O | O |   |   |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   |   |   |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 13----------
+Enter the column to make move:5
+| O | O |   |   |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   | X |   |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[1750, 1250, -99100, 1600, 1600]
+move made 2, since max score is 1750
+Time taken by AI is 0.10191878700061352
+
+| O | O | O |   |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   | X |   |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 14----------
+Enter the column to make move:3
+| O | O | O | X |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   |   |   |
+| X | X | O | O |   | X |   |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[-104600, 1800, 1800]
+move made 5, since max score is 1800
+Time taken by AI is 0.024709351997444173
+
+| O | O | O | X |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   | O |   |
+| X | X | O | O |   | X |   |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 15----------
+Enter the column to make move:6
+| O | O | O | X |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   |   |   |
+| X | O | X | X |   | O |   |
+| X | X | O | O |   | X | X |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[-98650, 2100, 2100]
+move made 5, since max score is 2100
+Time taken by AI is 0.01641775100142695
+
+| O | O | O | X |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   | O |   |
+| X | O | X | X |   | O |   |
+| X | X | O | O |   | X | X |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 16----------
+Enter the column to make move:6
+| O | O | O | X |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   | O |   |
+| X | O | X | X |   | O | X |
+| X | X | O | O |   | X | X |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[-599600, -498400, 2200]
+move made 6, since max score is 2200
+Time taken by AI is 0.019244827999500558
+
+| O | O | O | X |   |   |   |
+| O | X | X | O |   |   |   |
+| X | O | O | X |   | O | O |
+| X | O | X | X |   | O | X |
+| X | X | O | O |   | X | X |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 17----------
+Enter the column to make move:5
+| O | O | O | X |   |   |   |
+| O | X | X | O |   | X |   |
+| X | O | O | X |   | O | O |
+| X | O | X | X |   | O | X |
+| X | X | O | O |   | X | X |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[-98000, 51900, 102450]
+move made 6, since max score is 102450
+Time taken by AI is 0.051084216000162996
+
+| O | O | O | X |   |   |   |
+| O | X | X | O |   | X | O |
+| X | O | O | X |   | O | O |
+| X | O | X | X |   | O | X |
+| X | X | O | O |   | X | X |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 18----------
+Enter the column to make move:6
+| O | O | O | X |   |   | X |
+| O | X | X | O |   | X | O |
+| X | O | O | X |   | O | O |
+| X | O | X | X |   | O | X |
+| X | X | O | O |   | X | X |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[-98350, 96450]
+move made 5, since max score is 96450
+Time taken by AI is 0.00914809100140701
+
+| O | O | O | X |   | O | X |
+| O | X | X | O |   | X | O |
+| X | O | O | X |   | O | O |
+| X | O | X | X |   | O | X |
+| X | X | O | O |   | X | X |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+ -------- Your Turn is 19----------
+Enter the column to make move:4
+| O | O | O | X |   | O | X |
+| O | X | X | O |   | X | O |
+| X | O | O | X |   | O | O |
+| X | O | X | X |   | O | X |
+| X | X | O | O | X | X | X |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+
+AI is thinking ...
+[-inf]
+move made 4, since max score is -inf
+Time taken by AI is 0.00506641000174568
+
+| O | O | O | X |   | O | X |
+| O | X | X | O |   | X | O |
+| X | O | O | X |   | O | O |
+| X | O | X | X | O | O | X |
+| X | X | O | O | X | X | X |
+| O | O | O | X | X | O | X |
+  0   1   2   3   4   5   6
+Average time taken by AI is 0.10541665859982459
+AI wins!
+
