@@ -13,7 +13,7 @@ tic, fully observable, two player turn-taking zero-sum games. This is based on t
 * Enter the column to place the coin (AI takes the first turn)
 
 
-#How it looks?
+#How it looks?\\
 Enter the Height of the board:5
 Enter the Width of the board:5
 Enter the depth to search(MORE THAN 5 INCREASES, THE TIME):2
