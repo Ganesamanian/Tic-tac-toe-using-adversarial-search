@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Jun  9 15:28:09 2018
 
-@author: iswariya
-"""
 
 import argparse
 import math
